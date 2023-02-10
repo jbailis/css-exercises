@@ -1,0 +1,23 @@
+/* container must come before text to show which is nested inside which */
+.container .text {
+    font-size: 24px;
+    background-color: yellow;
+    color: red;
+    text-align: center;
+}
+
+/* redundant.  practice using type for descendant combinator */
+div p {
+    font-size: 24px;
+    background-color: yellow;
+    color: red;
+    text-align: center;
+}
+
+/* Below are some other possible descendant combinators:
+
+div p
+div .text
+.container p
+
+*/
